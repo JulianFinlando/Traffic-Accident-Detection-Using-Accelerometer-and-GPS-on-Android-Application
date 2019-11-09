@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000724797373",
+    "firebase_url": "https://deteksikecelakaan.firebaseio.com",
+    "project_id": "deteksikecelakaan",
+    "storage_bucket": "deteksikecelakaan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000724797373:android:ca743911dfc73f39",
+        "android_client_info": {
+          "package_name": "sukses.skripsi.crashdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000724797373-0h8ls3sel3b1lotbm947t0hbh9hajqpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sukses.skripsi.crashdetection",
+            "certificate_hash": "1f44ee45fad06014bb139ead57008bca728b1a38"
+          }
+        },
+        {
+          "client_id": "1000724797373-hkvds0q6j9gukao8bmaicl2lvjn4kil4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiiNFPEPgVlMIPIDG-074DzhkHhlVAo0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000724797373-hkvds0q6j9gukao8bmaicl2lvjn4kil4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

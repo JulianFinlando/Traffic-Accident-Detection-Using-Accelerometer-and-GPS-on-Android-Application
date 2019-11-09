@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP ME!!"
+        android:textColor="#01ADC0"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="35sp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/crash" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="#000"
+        android:textColorHint="#01ADC0"
+        android:inputType="textPersonName"
+        android:backgroundTint="#01ADC0"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="55dp" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textColorHint="#01ADC0"
+        android:inputType="textPassword"
+        android:backgroundTint="#01ADC0"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New user? Register Now"
+        android:id="@+id/Daftar"
+        android:textColor="#00F"
+        android:textSize="7pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
+

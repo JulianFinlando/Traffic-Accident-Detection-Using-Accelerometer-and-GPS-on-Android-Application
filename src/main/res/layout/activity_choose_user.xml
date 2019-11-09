@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="Choose Your Contact"
+        android:textColor="#01ADC0"
+        android:textSize="25sp" />
+
+    <ListView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/lUser">
+    </ListView>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:text="ADD"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:text="NEXT"/>
+</LinearLayout>
